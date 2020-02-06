@@ -1,0 +1,51 @@
+.wrapper, .container-button {
+    margin: auto; 
+    width: 500px;
+    height: 500px; 
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;    
+}
+
+.square {
+    background-color:orange;
+    margin: 1px;
+}
+
+.container-button {
+    height: 40px;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    cursor: pointer;
+    padding: 3px 14px;
+    float: left;
+    height: 35px;  
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+.container-input {
+    float: right;
+    display: flex;
+}
+
+
+
+input {
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+}
